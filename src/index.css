@@ -1,0 +1,29 @@
+.square {
+  background: #fff;
+  border: 1px solid blue;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 50px;
+  width: 50px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.player-icon, .coin-icon {
+  /*width: 35px;*/
+  height: 30px;
+}
+
+.player-icon>img {
+  height: 40px !important;
+}
